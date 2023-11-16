@@ -21,6 +21,42 @@ main{
     border-radius: 8px;
 }
 
+/* header styles  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    width: 100%;
+    background: #562EFF;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.logo img{
+    height: 51px;
+    width: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
 /* top player styles  */
 .top-players{
     margin-bottom: 30px;
@@ -145,6 +181,18 @@ top blogs styles
 /* ---- Media query ----  */
 
 @media only screen and (max-width:688px){
+  .header{
+    width: 100%;
+
+  }
+  .logo{
+    margin: 0;
+  }
+  nav ul{
+    /* margin: 0; */
+    gap: 8px;
+    align-items: center;
+  }
     .container{
         width: 100%;
         
